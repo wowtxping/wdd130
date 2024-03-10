@@ -13,13 +13,41 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+p {padding: 0;}
+
+main {
+    max-width: 800px;
+    width: 800px;
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+
+aside {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
