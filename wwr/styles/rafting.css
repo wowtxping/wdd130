@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #2E382E;
+    --secondary-color: #50C9CE;
+    --accent1-color: #72A1E5;
+    --accent2-color: #9883E5;
+
+    --heading-font: "Open Sans", sans-serif;
+    --paragraph-font: "Inria Sans", sans-serif;
+
+    --nav-background-color: grey;
+    --nav-link-color: blue;
+    --nav-hover-link-color: lightblue;
+    --nav-hover-background-color: lightgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    color: white;
+}
+
+.hero h1 {
+    position: absolute;
+    top:10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(128,128,128,.5);
+}
+
+.hero article {
+    position: absolute;
+    top:100px;
+    left:10%;
+    width: 620px;
+    height: auto;
+    margin: 10px;
+    border: solid #2E382E;
+    background-color: rgba(10,10,50,.5);
+}
+
+.hero article img{
+    position: relative;
+    top:20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
