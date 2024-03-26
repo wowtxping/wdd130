@@ -81,11 +81,13 @@ footer {
     padding: 1rem;
     color: black;
     background-color:silver;
+    text-align: left;
 }
 
 .grid {
     display: grid;
     align-items: center;
+    text-align: left;
 }
 
 /* Updated: March 2024 */
