@@ -81,8 +81,9 @@ footer {
     padding: 1rem;
     color: black;
     background-color:silver;
-    text-align: left;
 }
+
+
 
 .grid {
     display: grid;
