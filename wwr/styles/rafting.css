@@ -132,9 +132,9 @@ h2 {
 footer {
     border: solid 2px black;
     display: grid;
-    grid-template-columns: 11fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 5fr 1fr 1fr 1fr;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
     background-color: var(--primary-color);
     color: white;
 }
