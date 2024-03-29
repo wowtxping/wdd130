@@ -33,7 +33,7 @@ a {
 
 .hero {
     position: relative;
-    color: white;
+    color: black;
 }
 
 .hero h1 {
@@ -41,8 +41,8 @@ a {
     top:10px;
     width: 100%;
     text-align: center;
-    color: white;
-    background-color: rgba(128,128,128,.5);
+    color: black;
+    background-color: rgba(255,255,255,.8);
 }
 
 .hero article {
@@ -54,7 +54,7 @@ a {
     margin: 10px;
     padding: 5px;
     border: solid #2E382E;
-    background-color: rgba(10,10,50,.5);
+    background-color: rgba(255,255,255,.8);
 }
 
 .hero article img{
@@ -79,7 +79,7 @@ header {
     align-items: center;
     border: solid 2px black;
     max-width: 1000px;
-    background-color: var(--primary-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 nav {
@@ -90,7 +90,7 @@ nav {
 }
 
 nav a{
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
     margin: 0 5px;
@@ -135,8 +135,8 @@ footer {
     grid-template-columns: 4fr 5fr 1fr 1fr 1fr;
     align-items: center;
     padding: 2px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--nav-hover-background-color);
+    color: black;
 }
 
 /* 21/Mar/2024 | Ping Tao*/
