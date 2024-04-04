@@ -41,12 +41,14 @@ form {
 h5 {
     background-color: black;
     color: silver;
-    width: 400px;
+    width: 500px;
 }
 
 h5, select, textarea, input {
     margin: 10px;
+    font-size: 1.1rem;
 }
+
 
 button {
     display: flex;
