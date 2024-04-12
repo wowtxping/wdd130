@@ -327,8 +327,9 @@ h3 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border: solid 2px black;
-    max-width: 1000px;
+    max-width: 960px;
     background-color: var(--nav-hover-background-color);
+    margin: 5px;
 }
 
 
